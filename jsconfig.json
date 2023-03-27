@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+      "@/*": ["src/*"]
+    },
+    "lib": ["es2020"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "es2022",
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules/*/**", "dist/"]
+}
